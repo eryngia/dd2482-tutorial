@@ -1,6 +1,7 @@
-from flask import Flask
+from flask import Flask, request
 from openfeature import api
 from openfeature.contrib.provider.flagd import FlagdProvider
+from openfeature.evaluation_context import EvaluationContext
 
 # Configure flagd as the provider for evaluating feature flags
 api.set_provider(FlagdProvider(host="localhost", port=8013))

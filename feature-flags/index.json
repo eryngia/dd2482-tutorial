@@ -21,6 +21,11 @@
                 "title": "Add a new feature",
                 "text": "step3.md",
                 "verify": "verify3.sh"
+            },
+            {
+                "title": "Target internal users",
+                "text": "step4.md",
+                "verify": "verify4.sh"
             }
         ],
         "finish": {
