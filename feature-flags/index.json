@@ -26,6 +26,11 @@
                 "title": "Target internal users",
                 "text": "step4.md",
                 "verify": "verify4.sh"
+            },
+            {
+                "title": "Percentage-based rollout",
+                "text": "step5.md",
+                "verify": "verify5.sh"
             }
         ],
         "finish": {
