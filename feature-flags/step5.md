@@ -42,9 +42,9 @@ Everyone has `classic`, because that is the default variant. We will add the `fr
 }
 ```
 
-Run the 10 requests again. Since only the flag configuration was changed, no restarts are needed. You should see a mix of the three layouts. This functionality could be used to gradually increase the number of users who can access a new feature, or to test different versions of a feature.
+Run the 10 requests again. Since only the flag configuration was changed, no restarts are needed. You should usually see a mix of the three layouts. This functionality could be used to gradually increase the number of users who can access a new feature, or to test different versions of a feature.
 
-The targeting key (the email in this case) is hashed by flag to pick a bucket. Therefore, the same user will receive the same variant every time:
+The targeting key (the email in this case) is hashed by flagd to pick a bucket. Therefore, the same user will receive the same variant every time:
 ```bash
 for i in $(seq 1 5); do curl -s "localhost:8080?email=alice@gmail.com"; done
 ```{{exec}}
