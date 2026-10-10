@@ -15,10 +15,10 @@ docker run -d --name flagd -p 8013:8013 -v ~/demo/flags.json:/flags.json \
   ghcr.io/open-feature/flagd:latest start --uri file:/flags.json
 
 # Python environment
-apt-get install -y python3-venv > /dev/null
-python3 -m venv venv
-. venv/bin/activate
-pip install -q -r requirements.txt
+pip install -q --break-system-packages -r requirements.txt
+
+# Start in demo folder
+echo 'cd ~/demo' >> ~/.bashrc
 
 # Signal that setup is done
 touch /tmp/ready

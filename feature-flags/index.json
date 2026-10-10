@@ -9,11 +9,16 @@
         "steps": [
             {
                 "title": "Start the app",
-                "text": "step1.md"
+                "text": "step1.md",
+                "verify": "verify1.sh"
             },
             {
                 "title": "Turn the feature on",
                 "text": "step2.md"
+            },
+            {
+                "title": "Add a new feature",
+                "text": "step3.md"
             }
         ],
         "finish": {
