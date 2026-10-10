@@ -1,0 +1,44 @@
+{
+    "title": "Feature Flags with OpenFeature and flagd",
+    "description": "Decouple deployment from release using feature flags",
+    "details": {
+        "intro": {
+            "text": "intro/text.md",
+            "background": "intro/background.sh",
+            "foreground": "intro/foreground.sh"
+        },
+        "steps": [
+            {
+                "title": "Start the app",
+                "text": "step1/text.md"
+            },
+            {
+                "title": "Turn the feature on",
+                "text": "step2/text.md"
+            }
+        ],
+        "finish": {
+            "text": "finish/text.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    },
+    "assets": {
+        "host01": [
+            {
+                "file": "app.py",
+                "target": "~/demo",
+                "chmod": "+x"
+            },
+            {
+                "file": "requirements.txt",
+                "target": "~/demo"
+            },
+            {
+                "file": "flags.json",
+                "target": "~/demo"
+            }
+        ]
+    }
+}
