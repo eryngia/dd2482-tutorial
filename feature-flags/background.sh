@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-REPO=https://raw.githubusercontent.com/eryngia/dd2482-tutorial/main/scenario/assets
+REPO=https://raw.githubusercontent.com/eryngia/dd2482-tutorial/main/feature-flags/assets
 
 mkdir -p ~/demo && cd ~/demo
 
