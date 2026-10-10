@@ -12,7 +12,7 @@ wget -q $REPO/flags.json
 
 # Start flagd
 docker run -d --name flagd -p 8013:8013 -v ~/demo/flags.json:/flags.json \
-  ghcr.io/open-feature/flagd:latest start --uri file:/flags.json
+  ghcr.io/open-feature/flagd:v0.17.0 start --uri file:/flags.json
 
 # Python environment
 pip install -q --break-system-packages --ignore-installed -r requirements.txt
