@@ -19,6 +19,3 @@ pip install -q --break-system-packages --ignore-installed -r requirements.txt
 
 # Start in demo folder
 echo 'cd ~/demo' >> ~/.bashrc
-
-# Signal that setup is done
-touch /tmp/ready

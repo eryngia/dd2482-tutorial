@@ -1,4 +1,4 @@
-Release the dark mode feature by changing the flag in `flags.json`, without restarting or redeploying the app. You only need to change the `defaultVariant` of the feature from `off` to `on`. The change will be detected by flagd, and `client.get_boolean_value("dark-mode", False)` will now return `True`.
+Release the dark mode feature by changing the flag in `flags.json`, without restarting or redeploying the app. You only need to change the `defaultVariant` of the feature from `off` to `on`. The change will be detected by flagd, and `client.get_boolean_value` will now return `True` for the feature.
 
 Check the endpoint again after a moment:
 ```bash

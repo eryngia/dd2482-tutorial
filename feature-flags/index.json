@@ -4,8 +4,7 @@
     "details": {
         "intro": {
             "text": "intro.md",
-            "background": "background.sh",
-            "foreground": "foreground.sh"
+            "background": "background.sh"
         },
         "steps": [
             {
@@ -20,7 +19,8 @@
             },
             {
                 "title": "Add a new feature",
-                "text": "step3.md"
+                "text": "step3.md",
+                "verify": "verify3.sh"
             }
         ],
         "finish": {
