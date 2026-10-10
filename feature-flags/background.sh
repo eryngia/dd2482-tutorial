@@ -8,7 +8,7 @@ mkdir -p ~/demo && cd ~/demo
 # Fetch project files
 wget -q $REPO/app.py
 wget -q $REPO/requirements.txt
-wget -q -P flags $REPO/flags.json
+wget -q $REPO/flags.json
 
 # Start flagd
 docker run -d --name flagd -p 8013:8013 -v ~/demo/flags.json:/flags.json \

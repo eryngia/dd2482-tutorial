@@ -22,22 +22,5 @@
     },
     "backend": {
         "imageid": "ubuntu"
-    },
-    "assets": {
-        "host01": [
-            {
-                "file": "app.py",
-                "target": "~/demo",
-                "chmod": "+x"
-            },
-            {
-                "file": "requirements.txt",
-                "target": "~/demo"
-            },
-            {
-                "file": "flags.json",
-                "target": "~/demo"
-            }
-        ]
     }
 }
