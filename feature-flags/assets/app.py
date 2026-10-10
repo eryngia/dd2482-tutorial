@@ -15,7 +15,7 @@ def index():
     enabled = []
 
     # Enable 'dark-mode' feature depending on flag
-    if client.get_boolean_value("dark-mode"):
+    if client.get_boolean_value("dark-mode", False):
         enabled.append("dark-mode")
 
     # Display enabled features
