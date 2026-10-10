@@ -15,7 +15,8 @@
             },
             {
                 "title": "Turn the feature on",
-                "text": "step2.md"
+                "text": "step2.md",
+                "verify": "verify2.sh"
             },
             {
                 "title": "Add a new feature",
