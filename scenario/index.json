@@ -3,22 +3,22 @@
     "description": "Decouple deployment from release using feature flags",
     "details": {
         "intro": {
-            "text": "intro/text.md",
-            "background": "intro/background.sh",
-            "foreground": "intro/foreground.sh"
+            "text": "intro.md",
+            "background": "background.sh",
+            "foreground": "foreground.sh"
         },
         "steps": [
             {
                 "title": "Start the app",
-                "text": "step1/text.md"
+                "text": "step1.md"
             },
             {
                 "title": "Turn the feature on",
-                "text": "step2/text.md"
+                "text": "step2.md"
             }
         ],
         "finish": {
-            "text": "finish/text.md"
+            "text": "finish.md"
         }
     },
     "backend": {
