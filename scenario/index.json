@@ -1,11 +1,10 @@
 {
     "title": "Feature Flags with OpenFeature and flagd",
-    "description": "Decouple deployment from release using feature flags",
+    "description": "Decouple deployment from release using feature flags.",
     "details": {
         "intro": {
             "text": "intro.md",
-            "background": "background.sh",
-            "foreground": "foreground.sh"
+            "background": "background.sh"
         },
         "steps": [
             {
