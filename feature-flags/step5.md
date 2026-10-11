@@ -48,3 +48,6 @@ The targeting key (the email in this case) is hashed by flagd to pick a bucket. 
 ```bash
 for i in $(seq 1 5); do curl -s "localhost:8080?email=alice@gmail.com"; done
 ```{{exec}}
+
+## Help
+If you get stuck, solution files are available in the `~/demo/solutions` folder. Remember to restart the app.

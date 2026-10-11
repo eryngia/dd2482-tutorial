@@ -6,3 +6,6 @@ curl localhost:8080
 ```{{exec}}
 
 The same running process should now show dark mode as enabled. We have separated the deployment of the code from the release of the feature.
+
+## Help
+If you get stuck, solution files are available in the `~/demo/solutions` folder.

@@ -41,3 +41,6 @@ curl "localhost:8080?email=bob@gmail.com"
 ```{{exec}}
 
 Alice should see the `dashboard` feature and Bob should not. The code is identical for both. Only the context differs, and the decision happens in flagd.
+
+## Help
+If you get stuck, solution files are available in the `~/demo/solutions` folder. Remember to restart the app.

@@ -29,3 +29,6 @@ curl localhost:8080
 ```{{exec}}
 
 When you are done, leave the feature on.
+
+## Help
+If you get stuck, solution files are available in the `~/demo/solutions` folder. Remember to restart the app.

@@ -44,4 +44,4 @@ In this tutorial, you will:
 6. Reflect on when feature flags are worth using, and how they compare to other release strategies such as canary deployments.
 
 ## Help
-If you get stuck, solution files are available in the `/demo/solutions` folder.
+If you get stuck, solution files are available in the `~/demo/solutions` folder.
