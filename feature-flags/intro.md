@@ -42,3 +42,6 @@ In this tutorial, you will:
 4. Add a targeting rule so that only internal users see the feature.
 5. Turn the flag into an A/B test with a percentage-based rollout.
 6. Reflect on when feature flags are worth using, and how they compare to other release strategies such as canary deployments.
+
+## Help
+If you get stuck, solution files are available in the `/demo/solutions` folder.

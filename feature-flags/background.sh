@@ -10,6 +10,16 @@ wget -q $REPO/app.py
 wget -q $REPO/requirements.txt
 wget -q $REPO/flags.json
 
+# Fetch solution files
+mkdir -p solutions/step{2,3,4,5}
+wget -q $REPO/solutions/step2/flags.json -O solutions/step2/flags.json
+wget -q $REPO/solutions/step3/flags.json -O solutions/step3/flags.json
+wget -q $REPO/solutions/step4/flags.json -O solutions/step4/flags.json
+wget -q $REPO/solutions/step5/flags.json -O solutions/step5/flags.json
+wget -q $REPO/solutions/step3/app.py -O solutions/step3/app.py
+wget -q $REPO/solutions/step4/app.py -O solutions/step4/app.py
+wget -q $REPO/solutions/step5/app.py -O solutions/step5/app.py
+
 # Start flagd
 docker run -d --name flagd -p 8013:8013 -v ~/demo/flags.json:/flags.json \
   ghcr.io/open-feature/flagd:v0.17.0 start --uri file:/flags.json
